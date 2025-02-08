@@ -103,14 +103,20 @@ section:hover {
 
 /* Skills section enhancement */
 #skills ul li {
-    display: inline-block;
-    margin: 0.5rem;
-    padding: 0.8rem 1.2rem;
-    background: linear-gradient(45deg, #2563eb, #4f46e5);
-    color: white;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    box-shadow: 0 3px 10px rgba(37, 99, 235, 0.2);
+    display: block;
+    margin: 0.8rem 0;
+    padding: 1rem 1.5rem;
+    background: white;
+    color: #333;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 3px 10px rgba(37, 99, 235, 0.1);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+#skills ul li strong {
+    color: #2563eb;
+    margin-right: 0.5rem;
 }
 
 /* Contact section icons enhancement */
